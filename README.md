@@ -71,7 +71,7 @@ Three dominant differentiation states were mapped across clusters: melanocytic, 
 
 A multipronged approach was used to identify cell types across all clusters, combining manual marker gene evaluation, dot plot visualisation of key melanoma markers including SOX10, MLANA, PMEL, PTPRC and COL1A1, and automated annotation using Azimuth.
 
-![Cell type identification approach showing marker gene expression, dot plots, and final UMAP annotations for all clusters](images/image 2.png)
+![Cell type identification approach showing marker gene expression, dot plots, and final UMAP annotations for all clusters](images/image2.png)
 
 **Mutational status shapes tumour phenotype**
 
