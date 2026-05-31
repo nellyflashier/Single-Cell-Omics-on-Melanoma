@@ -35,8 +35,6 @@ This analysis asks: what changes occur in the Tumour Microenvironment (TME) betw
 
 ---
 
----
-
 ## Key tools and packages
 
 - **R** with Bioconductor
