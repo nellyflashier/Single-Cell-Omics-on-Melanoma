@@ -35,6 +35,16 @@ This analysis asks: what changes occur in the Tumour Microenvironment (TME) betw
 
 ---
 
+## Repository structure
+
+```
+Single-Cell-Omics-on-Melanoma/
+├── melanoma.R                             # Full analysis pipeline
+└── Single Cell OMICS Melanoma Cell Types  # Cell type annotation reference
+```
+
+---
+
 ## Key tools and packages
 
 - **R** with Bioconductor
@@ -51,7 +61,17 @@ This analysis asks: what changes occur in the Tumour Microenvironment (TME) betw
 
 **Tumour heterogeneity and cell states**
 
-14 transcriptionally distinct clusters were identified, each defined by a unique set of marker genes. Three dominant differentiation states were mapped across clusters: melanocytic, neural crest, and undifferentiated. The presence of multiple differentiation states within the same tumour confirms that melanoma cells exist along a phenotypic spectrum, which has direct implications for treatment response.
+14 transcriptionally distinct clusters were identified, each defined by a unique set of marker genes. The heatmap below shows the top 5 marker genes per cluster, confirming that each cluster has a distinct transcriptional fingerprint. Clusters that are spatially close on the UMAP share some top genes, for example clusters 1, 3, and 4.
+
+![Top 5 cluster markers heatmap showing the transcriptional fingerprint of all 14 identified melanoma clusters](images/image.png)
+
+Three dominant differentiation states were mapped across clusters: melanocytic, neural crest, and undifferentiated. The presence of multiple differentiation states within the same tumour confirms that melanoma cells exist along a phenotypic spectrum, which has direct implications for treatment response.
+
+**Cell type identification**
+
+A multipronged approach was used to identify cell types across all clusters, combining manual marker gene evaluation, dot plot visualisation of key melanoma markers including SOX10, MLANA, PMEL, PTPRC and COL1A1, and automated annotation using Azimuth.
+
+![Cell type identification approach showing marker gene expression, dot plots, and final UMAP annotations for all clusters](images/image 2.png)
 
 **Mutational status shapes tumour phenotype**
 
