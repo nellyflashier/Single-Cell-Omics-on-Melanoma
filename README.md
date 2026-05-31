@@ -35,16 +35,6 @@ This analysis asks: what changes occur in the Tumour Microenvironment (TME) betw
 
 ---
 
-## Repository structure
-
-```
-Single-Cell-Omics-on-Melanoma/
-├── melanoma.R                             # Full analysis pipeline
-└── Single Cell OMICS Melanoma Cell Types  # Cell type annotation reference
-```
-
----
-
 ## Key tools and packages
 
 - **R** with Bioconductor
